@@ -1,7 +1,5 @@
 #ifndef AC_MATH_LIB
 #define AC_MATH_LIB
-#include <gsl/gsl_vector.h>
-#include <math.h>
 #include "ac_math.c"
 // define a 3D vector whose coordinates are x,y,z - the result is stored in *v
 void ac_math_create_vector(gsl_vector *v,double x,double y,double z); 
